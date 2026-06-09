@@ -1,10 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi tienda</title>
-</head>
-<body>
-    <h1>Bienvenido a mi tienda </h1>
-      <p>Aqui vendere mis productos.</p>
-</body>
+<meta charset="UTF-8">
+<meta name="Viewport"
+  content="width=device-width,initial-scale=1.0">
+  <title>GameZone</title>
+
+  <style>
+    body{
+        margin:0;
+         font-family:Arial,sans-serif;
+      background:#121212;
+      color:black;
+    }
+
+    header{
+      background:#1e1e1e;
+      padding:20px;
+       text-align:center;
+    }
+
+    nav a{
+        color:#00aaff;
+        margin:0 15px;
+        text-decoration:none;
+        font-weight:bold;
+    }
+    .hero{
+      text-align:center;
+      padding:60px 20px;
+    }
+    .hero h1{
+      font-size:3em;
+    }
+    .productos{
+       display:flex;
+       flex-wrap:wrap;
+       justify-content:center;
+      gap:20px;
+      padding:30px;
+    }
+    .producto{
+      background:#1f1f1f;
+      padding:20px;
+      border-radius:10px;
+      width:250px;
+      text-align:center;
+    }
+    button{
+      background:#00aadd;
+      color:whithe;
+      border:none;
+      padding:10px 20px;
+      border-radius:5px;
+      cursor:pointer;
+    }
+    footer{
+        text-align:center;
+        padding:20px;
+       background:#1e1e1e;
+    }
+    </style>
+    </head>
+    
+    <body>
+    <header>
+         <h1>🎮 GameZone</h1>
+
+         <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Catalogo</a>
+            <a href="#">Ofertas</a>
+            <a href="#">Contactos</a>
+         </nav>
+    </header>
+
+   <section class="hero">
+        <h1>Tu tienda gamer favorita</h1>
+         <p>Encuentra los mejores item de juegos al mejor precio.</p>
+   </section>
+
+   <section class="productos">
+
+  <div class="producto">
+      <h3>Ambar</h3>
+      <p>$1.00
+      <button>Comprar</button>
+      </div>
+      
+    <div class="producto">
+      <h3>Skins</h3>
+      <p>$2.5
+      <button>Comprar</button>
+      </div>
+
+   </section>
+   <footer>
+       Gamme Zone - Todos los derechos reservados
+   </footer>
+
+    </body>
 </html>
